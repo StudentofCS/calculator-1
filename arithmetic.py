@@ -3,21 +3,23 @@
 
 def add(num1, num2):
     """Return the sum of num1 and num2."""
-
-    return 10
+    return num1 + num2
 
 
 def subtract(num1, num2):
     """Return the value of num1 minus num2."""
+    return num1 - num2
 
 
 def multiply(num1, num2):
     """Multiply the num1 by num2 and return the result."""
+    return num1 * num2
 
 
 def divide(num1, num2):
     """Divide the num1 by num2, returning a floating point."""
-
+    if num2 != 0:
+        return num1 / num2 
 
 def square(num1):
     """Return the square of num1."""
